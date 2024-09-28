@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 25px;
+  &-item {
+    list-style: none;
+  }
+  &-link {
+    padding: 10px;
+    color: $white-color;
+    font-size: $font-size-m;
+    border-radius: $border-radius-m;
+    transition: 0.3s ease;
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+}

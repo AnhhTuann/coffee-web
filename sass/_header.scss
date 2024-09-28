@@ -1,0 +1,22 @@
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: $primary-color;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-logo {
+    color: $white-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 10px;
+    font-size: $font-size-m;
+    img {
+      height: 60px;
+      width: 60px;
+    }
+  }
+}
