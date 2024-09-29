@@ -38,6 +38,10 @@ img {
   max-width: 100%;
 }
 
+body {
+  background-color: #55423d;
+}
+
 .wrapper {
   max-width: 1600px;
   margin: 0 auto;
@@ -49,14 +53,38 @@ img {
   padding: 0 15px;
 }
 
+.button {
+  background-color: #e78fb3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #9656a1;
+}
+
 body {
   font-family: "Poppins", system-ui;
+  color: #fff;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .header {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #55423d;
 }
 .header-container {
   display: flex;
@@ -93,7 +121,21 @@ body {
   transition: 0.3s ease;
 }
 .menu-link:hover {
-  background-color: #e78fb3;
+  background-color: #9656a1;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-title {
+  padding-bottom: 20px;
+}
+.hero-desc {
+  max-width: 70%;
+  padding-bottom: 30px;
+  color: #ccc;
 }
 
 /*# sourceMappingURL=app.css.map */

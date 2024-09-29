@@ -1,3 +1,15 @@
 body {
   font-family: $font;
+  color: $white-color;
+}
+
+.heading {
+  font-size: $font-size-l;
+  font-weight: $font-weight-bold;
+  line-height: 1;
+}
+
+.text {
+  font-size: $font-size-n;
+  line-height: 1.5;
 }

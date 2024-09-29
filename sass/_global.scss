@@ -1,3 +1,7 @@
+body {
+  background-color: $primary-color;
+}
+
 .wrapper {
   max-width: 1600px;
   margin: 0 auto;
@@ -7,4 +11,17 @@
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.button {
+  background-color: $secondary-color;
+  color: $white-color;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: $tertiary-color;
+  }
 }
