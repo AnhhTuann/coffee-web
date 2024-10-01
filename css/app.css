@@ -76,9 +76,6 @@ body {
   background-color: #9656a1;
   color: white;
 }
-.button--secondary--icon {
-  font-size: 1.12rem;
-}
 
 body {
   font-family: "Poppins", system-ui;
@@ -89,11 +86,14 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
+  color: #e78fb3;
+  padding-bottom: 20px;
 }
 
 .text {
   font-size: 1rem;
   line-height: 1.5;
+  padding-bottom: 20px;
 }
 
 .header {
@@ -214,6 +214,36 @@ body {
   .hero-desc {
     max-width: 100%;
   }
+}
+
+.about {
+  padding-top: 50px;
+}
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 50px;
+}
+.about-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.about-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
+}
+.about-social {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.about-social:hover {
+  color: #e78fb3;
 }
 
 /*# sourceMappingURL=app.css.map */

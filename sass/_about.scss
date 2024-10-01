@@ -1,0 +1,30 @@
+.about {
+  padding-top: 50px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 50px;
+  }
+  &-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  &-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+  }
+
+  &-social {
+    color: $white-color;
+    font-size: $font-size-l;
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
