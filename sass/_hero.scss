@@ -22,4 +22,19 @@
     align-items: center;
     gap: 30px;
   }
+  @media screen and (max-width: 900px) {
+    &-container {
+      flex-direction: column-reverse;
+    }
+    &-image {
+      padding-bottom: 50px;
+      width: 300px;
+    }
+    &-title {
+      text-align: center;
+    }
+    &-desc {
+      max-width: 100%;
+    }
+  }
 }
