@@ -14,14 +14,28 @@ body {
 }
 
 .button {
-  background-color: $secondary-color;
   color: $white-color;
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  &:hover {
+  &--primary {
     background-color: $tertiary-color;
+    &:hover {
+      background-color: $secondary-color;
+    }
+  }
+  &--secondary {
+    background-color: white;
+    border: 3px solid $tertiary-color;
+    color: $tertiary-color;
+    &:hover {
+      background-color: $tertiary-color;
+      color: white;
+    }
+    &--icon {
+      font-size: $font-size-m;
+    }
   }
 }

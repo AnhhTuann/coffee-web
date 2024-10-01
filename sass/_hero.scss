@@ -6,10 +6,20 @@
   }
   &-title {
     padding-bottom: 20px;
+    color: $secondary-color;
   }
   &-desc {
     max-width: 70%;
     padding-bottom: 30px;
     color: $medium-gray-color;
+  }
+  &-image {
+    max-width: 500px;
+    margin-right: 30px;
+  }
+  &-group {
+    display: flex;
+    align-items: center;
+    gap: 30px;
   }
 }
