@@ -1,0 +1,48 @@
+.contact {
+  padding: 50px 0;
+
+  &-content {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &-item {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    align-items: center;
+    i {
+      font-size: $font-size-l;
+    }
+  }
+
+  &-input {
+    gap: 20px;
+    width: 100%;
+    height: 50px;
+    padding: 0 12px;
+    outline: none;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 1px solid $secondary-color;
+
+    &:focus {
+      border-color: $secondary-color;
+    }
+  }
+  textarea {
+    height: 100px;
+    padding: 12px;
+    resize: vertical;
+  }
+
+  @media screen and (max-width: 900px) {
+    &-content {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

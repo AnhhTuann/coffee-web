@@ -477,4 +477,75 @@ body {
   }
 }
 
+.contact {
+  padding: 50px 0;
+}
+.contact-content {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.contact-item {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+  align-items: center;
+}
+.contact-item i {
+  font-size: 1.5rem;
+}
+.contact-input {
+  gap: 20px;
+  width: 100%;
+  height: 50px;
+  padding: 0 12px;
+  outline: none;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  border: 1px solid #e78fb3;
+}
+.contact-input:focus {
+  border-color: #e78fb3;
+}
+.contact textarea {
+  height: 100px;
+  padding: 12px;
+  resize: vertical;
+}
+@media screen and (max-width: 900px) {
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.footer {
+  background-color: #271c19;
+  padding: 20px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.12rem;
+}
+.footer-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+.footer-logo img {
+  width: 40px;
+}
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+.footer-social a {
+  color: #fff;
+}
+
 /*# sourceMappingURL=app.css.map */
